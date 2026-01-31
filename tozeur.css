@@ -1,0 +1,86 @@
+.hero-section {
+    width: 100%;          /* Te5ou el blasa kemla mel 7it lel 7it */
+    height: auto;         /* Khalliha tetbadal 7asb toul el taswira */
+    margin: 0;            /* Na77i el fadhé abyadh mel jnab */
+    padding: 0;           /* Na77i el fadhé elli dakhil el section */
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;          /* Taswira tetjabed 3al 3ordh kemel mta3 l'écran */
+    height: 400px;        /* El toul elli t7eb 3lih (7ott el rbe3 wala nos l'écran kima t7eb) */
+    object-fit: cover;    /* Tkhalli el taswira dima mrigla mahma jet l'écran kbira */
+    display: block;       /* Tna77i el fadhé el abyadh sghir mel louta */
+}
+.nature-description {
+    padding: 40px 10%;    /* Ta3mel fadhé mel fou9 w tcentri el kteba */
+    text-align: center;   /* Trod el kteba fil wast */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;     /* Tkhalli fadhé bin el stroun bech el 9raya tas-hel */
+    color: #333;          /* Lon gris dhelma chwaya bech ma touja3ch el 3in */
+    font-size: 18px;
+}
+.nature-intro {
+    max-width: 1000px;     /* Bech el ktaba ma tat-jbadch 3al ecran kemel (as-hel fil 9raya) */
+    margin: 60px auto;     /* 'auto' hiya elli t-centri el paragraphe fil wast bedhabt */
+    padding: 0 40px;       /* Fadhé sghir 3al jnab bech ma talsaqch fil ecran sghir */
+    text-align: left;    /* Khalliha 'left' kima fil screenshot wala 'center' ken t7ebha mcentrya */
+}
+
+.nature-intro h2 {
+    font-family: 'Playfair Display', serif; /* Wala 'Arial' ken ma3andekch fonts */
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: #1a1a1a;
+}
+
+.nature-intro p {
+    font-size: 18px;       /* Kobr el ktaba */
+    line-height: 1.8;      /* AHAM FAZA: hedhi elli t-khalli el fadhé bin el stroun */
+    color: #444;           /* Lon gris mrigel lel 3in */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 1px;     /* Fadhé sghir bin el kelmet */
+}
+
+.nature-intro strong {
+    color: #000;           /* T-ghamaq el blays el mohemma kima fil model */
+    font-weight: 700;
+}
+/*partie ain drahemmmmmmmmmm*/
+.ain-draham-section {
+    width: 100%;
+    text-align: center;    /* T-centri el titre w el paragraphe */
+    padding: 50px 0;
+    background-color: #e2f3e5; /* Hadha el lon el khfif elli 3andek fil screenshot */
+}
+
+.gallery-title {
+    font-size: 32px;
+    margin-bottom: 30px;   /* Fadhé bin el titre w el tsawer */
+    color: #2e4a31;
+}
+
+.nature-gallery {
+    display: flex;          /* Traj3 el 4 tsawer ba7dha b3adhhom barka */
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;    /* Fadhé bin el tsawer w el paragraphe */
+}
+
+.nature-gallery img {
+    width: 22%;             /* Kobr mrigel lel 4 tsawer */
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.simple-nature-text {
+    max-width: 800px;
+    margin: 0 auto;         /* T-centri el paragraphe ta7t el gallery */
+}
+
+.simple-nature-text p {
+    font-size: 18px;
+    line-height: 1.8;      /* El fadhé bin el stroun kima tfahemna */
+    color: #444;
+}
